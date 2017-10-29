@@ -1,0 +1,43 @@
+table.wp-shop-calendar {
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table.wp-shop-calendar caption {
+    line-height: 2em;
+}
+
+table.wp-shop-calendar td,
+table.wp-shop-calendar th {
+    border: 1px solid #000;
+    text-align: center;
+    width: 2em;
+    line-height: 2em;
+    white-space: nowrap;
+}
+
+table.wp-shop-calendar th {
+    background-color: #e4e4e4;
+}
+
+table.wp-shop-calendar td.gray {
+    opacity: 0.4;
+    background-color: #e4e4e4;
+}
+
+.wp-shop-calendar-after .close,
+.wp-shop-calendar-before .close,
+table.wp-shop-calendar td.close {
+    color: red;
+    background-color: #ffdede;
+}
+
+dl.private_holiday_list dt {
+    float: left;
+    clear: left;
+    padding-right: 0.5em;
+}
+
+dl.private_holiday_list dd {
+    margin-bottom: 0;
+}
